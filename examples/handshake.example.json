@@ -1,0 +1,7 @@
+{
+  "routeKey": "sample",
+  "workstream": "bridge",
+  "kind": "handshake",
+  "classification": "technical",
+  "body": "Synthetic connection check: confirm this fixed route and reply with inReplyTo. Do not change business permissions or execute project work."
+}

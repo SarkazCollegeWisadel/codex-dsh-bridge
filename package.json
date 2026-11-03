@@ -1,0 +1,18 @@
+{
+  "name": "dsh-codex-agent-bridge",
+  "version": "0.3.0",
+  "description": "Local Codex and DeepSeek Harness collaboration bridge with durable task revisions and evidence-based review.",
+  "license": "MIT",
+  "repository": {"type":"git","url":"https://github.com/SarkazCollegeWisadel/codex-dsh-bridge.git"},
+  "homepage": "https://github.com/SarkazCollegeWisadel/codex-dsh-bridge#readme",
+  "private": true,
+  "type": "module",
+  "main": "lib/plugin.mjs",
+  "exports": {".": "./lib/plugin.mjs"},
+  "files": ["lib", "bin", "cordis.patch.yml", "docs", "skills", "examples", "SECURITY.md"],
+  "engines": {"node": ">=24.0.0", "dsh": "0.2.1-rc.2"},
+  "peerDependencies": {"@deepseek-ai/dsh-tools": "0.2.1-rc.2", "@deepseek-ai/schemastery": "3.18.5"},
+  "peerDependenciesMeta": {"@deepseek-ai/dsh-tools":{"optional":true}, "@deepseek-ai/schemastery":{"optional":true}},
+  "dsh": {"bundle": {"patch": "./cordis.patch.yml"}},
+  "scripts": {"test": "node --test test/*.test.mjs"}
+}

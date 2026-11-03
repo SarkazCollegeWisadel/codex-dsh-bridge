@@ -1,0 +1,15 @@
+node_modules/
+state/
+artifacts/
+backups/
+v-2/
+private/
+dist/
+*.sqlite*
+*.log
+*.tgz
+*.bundle
+.env
+.env.*
+*.private.*
+examples/*.local.*

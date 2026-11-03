@@ -1,0 +1,4 @@
+{
+  "authorization": "user-approved",
+  "routes": [{"routeKey": "sample", "businessPaused": false}]
+}

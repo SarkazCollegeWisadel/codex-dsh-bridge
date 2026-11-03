@@ -1,0 +1,5 @@
+- insert:
+    - id: codex-agent-bridge
+      name: dsh-codex-agent-bridge
+      config:
+        deliveryTimeoutMs: 20000
