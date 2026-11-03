@@ -60,4 +60,6 @@
 
 贡献前请读 [CONTRIBUTING.md](CONTRIBUTING.md)。许可证：[MIT](LICENSE)。
 
+[工程研究报告](docs/RESEARCH_REPORT.md)说明设计方法、可复现证据、失败与局限；[最新验证记录](docs/VALIDATION.md)区分源码修复和已发布安装包。
+
 English summary: A local, evidence-oriented collaboration bridge between Codex and DeepSeek Harness. Explicit session bindings, durable SQLite messages, task revisions, MCP/CLI, and an optional experimental Windows desktop wake adapter. Optional reviewed memory is a workflow recommendation, not model training. No user conversations, credentials, or runtime databases are included.
