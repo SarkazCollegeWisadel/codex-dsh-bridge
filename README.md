@@ -1,3 +1,5 @@
+> 分类：AI 基础设施（topic: ai-infrastructure）
+
 # Codex ↔ DSH Bridge
 
 把 **Codex 的计划与代码审阅**，和 **DeepSeek Harness（DSH）的持续上下文、工具执行及经验整理**连接起来的本地插件。双方沿同一任务版本交换技术资料和验收证据，留下下一位 Agent 能接续的记录。
